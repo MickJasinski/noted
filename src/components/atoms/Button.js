@@ -5,7 +5,7 @@ const Button = styled.button`
   width: ${({ width }) => width || 'auto'};
   border: 2px solid black;
   border-radius: 50px;
-  background-color: ${({ color }) => color || 'white'};
+  background-color: ${({ theme }) => theme.primary};
   color: black;
   padding: 16px 50px;
   font-family: 'Source Sans Pro', sans-serif;
