@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400i,600&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
 
   *, *::before, *::after {
     box-sizing: border-box;
@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
   }
 `;

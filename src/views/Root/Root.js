@@ -1,6 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import Button from 'components/atoms/Button/Button';
+import Heading from 'components/atoms/Heading/Heading';
 import GlobalStyle from 'theme/GlobalStyle';
 import { theme } from 'theme/mainTheme';
 
@@ -9,6 +10,7 @@ const Root = () => (
     <GlobalStyle />
     <ThemeProvider theme={theme}>
       <>
+        <Heading />
         <h1>Hello</h1>
         <Button>Click this</Button>
         <Button secondary>or this</Button>
